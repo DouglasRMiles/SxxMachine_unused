@@ -154,7 +154,6 @@ public abstract class SymbolTerm extends Term {
       // If reuse wasn't possible, construct the term dynamically.
       return new Dynamic(_name, _arity);
     }
-
     /** Holds a string representation of this <code>SymbolTerm</code>. */
     protected final String name;
 

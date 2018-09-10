@@ -26,6 +26,8 @@ public abstract class Term implements Comparable<Term> {
     public static final int TYPE_CLOSURE = 6;
     public static final int TYPE_JAVA_OBJECT = 7;
 
+
+
     /** One of the {@code TYPE_*} constants from {@code Term}. */
     public abstract int type();
 

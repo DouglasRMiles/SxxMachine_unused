@@ -18,6 +18,11 @@ import com.googlecode.prolog_cafe.exceptions.IllegalTypeException;
  * @version 1.0
 */
 public class DoubleTerm extends NumberTerm {
+	
+	@Override
+	public boolean isDouble() {
+		return true;
+	}
     /** Holds a <code>double</code> value that this <code>DoubleTerm</code> represents. */
     protected double val;
 

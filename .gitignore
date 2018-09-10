@@ -1,7 +1,8 @@
-/.settings
-/.apt_generated
+/eclipse-out/
+# /.apt_generated
 /bazel-bin
 /bazel-genfiles
 /bazel-out
 /bazel-prolog-cafe
 /bazel-testlogs
+/bazel-*
